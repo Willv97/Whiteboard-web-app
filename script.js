@@ -13,3 +13,12 @@ canvas.addEventListener('mouseup', () => {
 });
 
 canvas.addEventListener('mousemove', draw);
+
+function draw(event) {
+    if (!isDrawing) return;
+}
+
+// Get mouse position
+const rect = canvas.getBoundingClientRect();
+const x = event.clientX - rect.left;
+const y = event.clientY - rect.top;
