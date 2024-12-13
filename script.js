@@ -31,4 +31,4 @@ ctx.lineTo(x, y); // Draw to the new point
 ctx.stroke();
 ctx.beginPath(); // Start a new path to continue drawing
 ctx.moveTo(x, y); // Move to the current mouse position
-}
+};
