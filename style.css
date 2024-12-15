@@ -11,3 +11,12 @@ canvas {
     border: 1px solid #ccc;
     background-color: white;
 }
+
+#toolbar {
+    display: flex;
+    gap: 10;
+    margin-bottom: 10px;
+    background-color: rgb(140, 157, 176);
+    padding: 10px;
+    border-radius: 5px;
+}
