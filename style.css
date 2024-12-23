@@ -1,10 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: lightgray;
 }
 
 canvas {
@@ -19,9 +24,21 @@ canvas {
     background-color: rgb(140, 157, 176);
     padding: 10px;
     border-radius: 5px;
+    align-items: center;
 }
 
 button {
     padding: 5px 10px;
     font-size: 17px;
+    border-color: rgb(78, 168, 171);
+    align-content: center;
+    color: red;
+    background-color: rgb(22, 22, 22);
+}
+
+input[type="color"] {
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
 }

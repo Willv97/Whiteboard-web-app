@@ -24,7 +24,7 @@ const x = event.clientX - rect.left;
 const y = event.clientY - rect.top;
 
 ctx.lineWidth = 2; // Set Thickness
-ctx.lineCap = 'round'; // SRound edges for smoother lines
+ctx.lineCap = 'round'; // Round edges for smoother lines
 ctx.strokeStyle = 'black'; // Line Color
 
 ctx.lineTo(x, y); // Draw to the new point
