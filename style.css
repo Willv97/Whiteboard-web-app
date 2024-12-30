@@ -12,6 +12,27 @@ body {
     background-color: lightgray;
 }
 
+#navBar {
+    display: flex;
+    padding: 2px;
+    align-content: center;
+    font-size: 19px;
+    align-self: start;
+    margin: 2px;
+    justify-content: center;
+}
+
+.navBar {
+    background-color: azure;
+    color: blanchedalmond;
+    position: relative;
+    justify-content: center;
+}
+
+.navBar:hover {
+    color: aqua;
+}
+
 canvas {
     border: 1px solid #ccc;
     background-color: white;
